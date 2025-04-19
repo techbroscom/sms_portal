@@ -19,13 +19,8 @@ class AuthRepository {
       if (kDebugMode) {
         print(request);
       }
-      final endpointMap = {
-        Constants.student: ApiEndpoints.studentLogin,
-        Constants.staff: ApiEndpoints.staffLogin,
-        Constants.admin: ApiEndpoints.adminLogin,
-      };
 
-      final endPoint = endpointMap[userType] ?? ApiEndpoints.adminLogin;
+      final endPoint = ApiEndpoints.adminLogin;
       final data = await webService.postData(endPoint, request);
       final List<dynamic> jsonResponse = jsonDecode(data.toString());
 

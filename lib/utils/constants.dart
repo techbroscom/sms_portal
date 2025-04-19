@@ -12,38 +12,4 @@ class Constants {
 
 class ApiEndpoints {
   static const String adminLogin = 'login/admin';
-  static const String studentLogin = 'login/student';
-  static const String staffLogin = 'login/staff';
-
-  static const String adminDashboard = 'admin/dashboard';
-  static const String login = 'login';
-  static const String studentFeed = 'students/feed';
-  static const String adminHolidays = 'holidays';
-  static const String adminPosts = 'admin/posts';
-  static const String adminStaffs = 'admin/staffs';
-  static const String adminStudents = 'admin/students';
-  static const String staffAttendance = 'staff/attendance';
-
-  static const String complaints = "admin/complaints";
-  static const String addComplaint = "api/complaints";
-  static const String updateComplaintStatus = "api/complaints/update-status";
-  static const String addComplaintComment = "api/complaints/comment";
-
-  static const String books = 'books';
-  static const String addBook = 'books/add';
-  static const String issueBook = 'books/issue';
-  static const String returnBook = 'books/return';
-  static const String issuedBooks = 'books/issued';
-
-  static const String studentAdmission = 'student/admission';
-  static const String staffRegistration = 'admin/staff/register';
-  static const String staffDelete = 'admin/staff/delete';
-
-  static const String subjects = 'subjects';
-  static const String exams = 'exams';
-
-  static const String configuration = 'admin/configuration';
-
-  static const String features = 'admin/features';
-  static const String staff = 'admin/staffs/permissions';
 }
